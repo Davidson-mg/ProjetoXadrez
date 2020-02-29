@@ -5,6 +5,8 @@
  */
 package application;
 
+import xadrez.PartidaXadrez;
+
 /**
  *
  * @author David
@@ -14,7 +16,9 @@ public class Program {
     
     public static void main(String[] args) {
         
+        PartidaXadrez partidaXadrez = new PartidaXadrez();
         
+        Ui.printTabuleiro(partidaXadrez.getPecas());
         
     }
     
