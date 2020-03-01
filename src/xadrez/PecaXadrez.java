@@ -22,6 +22,11 @@ public class PecaXadrez extends Peca{
         super(tabuleiro);
         this.cor = cor;
     }
+    
+    public PecaXadrez (Tabuleiro tabuleiro, Cor cor){
+        super(tabuleiro);
+        this.cor = cor;
+    }
 
     public void setCor(Cor cor) {
         this.cor = cor;
