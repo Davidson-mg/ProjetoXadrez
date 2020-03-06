@@ -8,6 +8,10 @@ package boardgame;
 /*board*/
 
 public class Tabuleiro {
+
+    public static void ColocarPeca() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
     private int linha;
     private int coluna;
